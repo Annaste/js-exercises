@@ -1,0 +1,31 @@
+.closed:before{
+	content: '►';
+	float: left;
+	color: grey;
+	display:block;
+}
+.opened:before{
+	content: '▼';
+	float: left;
+	color: grey;
+	display:block;
+}
+.spoiler{
+	cursor:pointer;
+}
+.spoilerInside{
+	display: none;
+    background: lightgray;
+    border: 1px solid darkgrey;
+	border-radius: 2px;
+	padding: 8px;
+	margin: 10px;
+	width: 600px;
+}
+a.spoilerText{
+	color: cornflowerblue;
+	border-bottom: 1px dashed;
+}
+img {
+    width: inherit;
+}
